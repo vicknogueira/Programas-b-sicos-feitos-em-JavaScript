@@ -1,0 +1,47 @@
+body{
+    background-color: #7d35cf9f;
+    font-family: monospace;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    background-color: yellow;
+    margin: 03em 10em 0 10em; 
+    border-radius: 2px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 0 0;
+}
+#informacoes{
+    background-color: white;
+    width: 30em;
+    height: 13em;
+    border-radius: 2px;
+    display: inline-grid;
+    justify-content: center;
+
+}
+#align_bot{
+    display: flex;
+    justify-content: center;
+}
+#botao{
+    background-color: green;
+    width: 5em;
+    height: 2em;
+    border-radius: 1px;
+    border: none;
+    cursor: pointer;
+}
+#txtresul{
+    padding-top: 10px;
+    text-align: center; 
+}
